@@ -10,7 +10,7 @@ import { useThemeStore } from "./store/useThemeStore.js";
 import { useEffect } from "react";
 import TaskPage from "./pages/TaskPage.jsx";
 import ScreenLoader from "./components/Loader.jsx";
-import Profile from "./pages/profile.jsx";
+import Profile from "./pages/Profile.jsx";
 
 const App = () => {
   const { authUser, checkAuth, isLoading } = useAuthStore();
